@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class vote {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+int age=0;
+int currentYear=2024;
+int[] dob = {2001,2010,2009,1964,1975,2004,1994,2016,2019,1947};
+int count=0;
+Scanner sc = new Scanner(System.in);
+for(int i=0;i<dob.length;i++) {
+ 
+ age =currentYear-dob[i];
+
+ System.out.println("age = " + age);
+
+ if(age>=18) {
+	 System.out.println("This person is eligible to vote" );
+	 count++;
+ }
+ else {
+	 System.out.println("You are too younger to vote");
+	}
+}
+
+System.out.println("Person who can vote is "+count);
+	}
+	}
