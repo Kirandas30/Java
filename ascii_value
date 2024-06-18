@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class asciivalue {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner sc = new Scanner(System.in);
+System.out.print("enter a character");
+char n = sc.nextLine().charAt(0);
+sc.close();
+int av = (int)n;
+System.out.println("aschii value of " + n + " is " + av);
+	}
+
+}
