@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class automorphic {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter a number");
+int n = sc.nextInt();
+int sq = n*n;
+if(n%10 == sq%10) {
+	System.out.print("A");
+	
+}
+else if(n/10 == sq/10) {
+	System.out.print("A");
+}
+else {
+	System.out.print("NA");
+}
+	
+	}
+
+}
