@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class swapw {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+int c=0;
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter a and b");
+int a=sc.nextInt();
+int b= sc.nextInt();
+c=a;
+a=b;
+b=c;
+System.out.println("a=" +a);
+System.out.println("b=" + b);
+	}
+
+}
